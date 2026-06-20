@@ -1,0 +1,12 @@
+{
+    "model_name": "kmeans_risk_segmentation_model",
+    "model_type": "KMeans",
+    "selected_k": 2,
+    "selection_rule": "maximum silhouette score over k=2..8",
+    "pca_pc1_explained_variance": 0.257053072133211,
+    "pca_pc2_explained_variance": 0.1138590327794625,
+    "pca_total_2d_explained_variance": 0.37091210491267346,
+    "lgd_assumption": 0.45,
+    "n_observations": 1000,
+    "n_processed_features": 79
+}
