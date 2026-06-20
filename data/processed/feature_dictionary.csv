@@ -1,0 +1,10 @@
+feature,type,description
+credit_amount_per_month,engineered_numerical,Credit amount divided by loan duration in months. Proxy for monthly credit intensity.
+credit_amount_log,engineered_numerical,Log transformation of credit amount to reduce skewness.
+duration_years,engineered_numerical,Loan duration expressed in years.
+long_duration_flag,engineered_binary,Indicator equal to 1 when loan duration is 36 months or longer.
+high_credit_amount_flag,engineered_binary,Indicator equal to 1 when credit amount is above or equal to the 75th percentile.
+installment_burden_proxy,engineered_numerical,Installment rate multiplied by credit amount. Proxy for repayment burden.
+age_bucket,engineered_categorical,Borrower lifecycle group based on age.
+duration_bucket,engineered_categorical,Loan maturity group based on duration in months.
+credit_amount_bucket,engineered_categorical,Exposure group based on credit amount quartiles.

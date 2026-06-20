@@ -3,9 +3,9 @@
 Credit Risk Intelligence Lab is a machine learning project focused on credit risk analysis. The objective is to estimate probability of default, discover hidden borrower segments through unsupervised learning, detect anomalous credit profiles, and generate interpretable portfolio-level risk insights.
 
 ## Project Motivation
-Credit risk is not only a classification problem. A borrower can be classified as high or low risk, but financial institutions also need to understand why that risk exists, whether similar borrowers form hidden groups, and which profiles may require additional review.
+A borrower can be classified as high or low risk, but financial institutions also need to understand why that risk exists, whether similar borrowers form hidden groups, and which profiles may require additional review.
 
-This project combines supervised learning, unsupervised learning, anomaly detection, explainability, and risk metrics to build a more complete credit risk analysis framework.
+This project have supervised learning, unsupervised learning, anomaly detection, explainability, and risk metrics to build a more complete credit risk analysis framework.
 
 ## Main Questions
 1. Which borrowers have the highest probability of default?
