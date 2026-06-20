@@ -1,0 +1,11 @@
+{
+    "model_name": "baseline_logistic_pd_model",
+    "model_type": "LogisticRegression",
+    "threshold": 0.5,
+    "random_state": 42,
+    "class_weight": "balanced",
+    "test_roc_auc": 0.7965476190476191,
+    "test_gini": 0.5930952380952381,
+    "test_brier_score": 0.18674845325065406,
+    "lgd_assumption": 0.45
+}
