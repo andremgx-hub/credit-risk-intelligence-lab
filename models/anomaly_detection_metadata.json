@@ -1,0 +1,16 @@
+{
+    "model_layer": "anomaly_detection",
+    "methods": [
+        "IsolationForest",
+        "LocalOutlierFactor",
+        "ensemble_average"
+    ],
+    "contamination": 0.05,
+    "ensemble_threshold": 0.34557547143662976,
+    "n_observations": 1000,
+    "n_processed_features": 79,
+    "n_ensemble_anomalies": 50,
+    "ensemble_anomaly_rate": 0.05,
+    "correlation_anomaly_score_predicted_pd": 0.2843886057355185,
+    "lgd_assumption": 0.45
+}

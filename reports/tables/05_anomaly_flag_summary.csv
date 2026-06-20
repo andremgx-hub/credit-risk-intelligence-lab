@@ -1,0 +1,4 @@
+method,anomaly_count,anomaly_rate
+Isolation Forest,50,0.05
+Local Outlier Factor,50,0.05
+Ensemble,50,0.05
