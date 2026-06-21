@@ -1,0 +1,13 @@
+{
+    "report_layer": "portfolio_risk_reporting",
+    "n_borrowers": 1000,
+    "total_exposure_proxy": 3271258.0,
+    "average_predicted_pd": 0.43186382611788326,
+    "observed_default_rate": 0.3,
+    "total_expected_loss_proxy": 732747.3496587379,
+    "expected_loss_rate_proxy": 0.22399558508033848,
+    "lgd_assumption": 0.45,
+    "highest_expected_loss_risk_band": "high_risk",
+    "highest_expected_loss_cluster": "1",
+    "anomaly_rate": 0.05
+}

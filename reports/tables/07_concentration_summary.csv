@@ -1,0 +1,8 @@
+concentration_view,value
+top_10_borrowers_exposure_share,0.04723656770575724
+top_20_borrowers_exposure_share,0.0870227906206114
+top_10_borrowers_expected_loss_share,0.08528599759113689
+top_20_borrowers_expected_loss_share,0.1495937949548247
+exposure_hhi_by_borrower,0.0017438351317802373
+exposure_hhi_by_cluster,0.5144794360119216
+expected_loss_hhi_by_cluster,0.5749968141903851

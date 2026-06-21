@@ -1,0 +1,4 @@
+flag,borrowers,borrower_share,expected_loss_share
+high_pd_high_exposure,102,0.102,0.4160346787211956
+high_expected_loss,100,0.1,0.4487181084304455
+anomalous_elevated_pd,28,0.028,0.12968301643450952

@@ -1,0 +1,11 @@
+metric,value
+number_of_borrowers,1000.0
+total_exposure_proxy,3271258.0
+average_exposure_proxy,3271.258
+average_predicted_pd,0.43186382611788326
+median_predicted_pd,0.400035001345471
+observed_default_rate,0.3
+total_expected_loss_proxy,732747.3496587379
+expected_loss_rate_proxy,0.22399558508033848
+anomaly_rate,0.05
+exposure_hhi_by_borrower,0.0017438351317802373
