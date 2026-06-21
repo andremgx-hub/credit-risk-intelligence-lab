@@ -229,7 +229,7 @@ stress_scenarios = load_csv(REPORTS_TABLES / "08_stress_scenarios.csv", index_co
 # ---------------------------------------------------------------------
 
 st.sidebar.title("Credit Risk Lab")
-st.sidebar.caption("Dashboard de riesgo crediticio basado en los outputs del pipeline analítico.")
+st.sidebar.caption("Credit risk dashboard powered by the outputs of the analytical pipeline.")
 
 st.sidebar.markdown("### Data status")
 
@@ -334,14 +334,14 @@ with tab_overview:
         unsafe_allow_html=True,
     )
 
-    filtered_n = len(filtered_portfolio)
-    filtered_ead = filtered_portfolio["ead_proxy"].sum() if "ead_proxy" in filtered_portfolio.columns else np.nan
-    filtered_avg_pd = filtered_portfolio["predicted_pd"].mean() if "predicted_pd" in filtered_portfolio.columns else np.nan
-    filtered_el = filtered_portfolio["expected_loss_proxy"].sum() if "expected_loss_proxy" in filtered_portfolio.columns else np.nan
-    filtered_el_rate = filtered_el / filtered_ead if filtered_ead and filtered_ead > 0 else np.nan
+    filtered_n = len(filtered_portfolio) # type: ignore
+    filtered_ead = filtered_portfolio["ead_proxy"].sum() if "ead_proxy" in filtered_portfolio.columns else np.nan # type: ignore
+    filtered_avg_pd = filtered_portfolio["predicted_pd"].mean() if "predicted_pd" in filtered_portfolio.columns else np.nan # type: ignore
+    filtered_el = filtered_portfolio["expected_loss_proxy"].sum() if "expected_loss_proxy" in filtered_portfolio.columns else np.nan # type: ignore
+    filtered_el_rate = filtered_el / filtered_ead if filtered_ead and filtered_ead > 0 else np.nan 
     filtered_default_rate = (
-        filtered_portfolio["actual_default"].mean()
-        if "actual_default" in filtered_portfolio.columns
+        filtered_portfolio["actual_default"].mean() # type: ignore
+        if "actual_default" in filtered_portfolio.columns # type: ignore
         else np.nan
     )
 
@@ -387,7 +387,7 @@ with tab_overview:
         st.info("Portfolio KPI table not found.")
 
     dataframe_download_button(
-        filtered_portfolio,
+        filtered_portfolio, # type: ignore
         label="Download filtered portfolio",
         file_name="filtered_credit_risk_portfolio.csv",
     )
@@ -571,7 +571,7 @@ with tab_borrowers:
             "ensemble_anomaly_score",
             "credit_amount",
         ]
-        if col in filtered_portfolio.columns
+        if col in filtered_portfolio.columns # type: ignore
     ]
 
     sort_col = st.selectbox("Sort borrowers by", options=sort_options, index=0)
@@ -595,11 +595,11 @@ with tab_borrowers:
         "risk_narrative",
     ]
 
-    available_review_cols = [col for col in review_cols if col in filtered_portfolio.columns]
+    available_review_cols = [col for col in review_cols if col in filtered_portfolio.columns] # type: ignore
 
     borrower_review = (
         filtered_portfolio
-        .sort_values(sort_col, ascending=False)
+        .sort_values(sort_col, ascending=False) # type: ignore
         [available_review_cols]
         .head(n_rows)
     )
