@@ -1,0 +1,5 @@
+scenario,pd_multiplier,lgd,ead_multiplier,high_risk_band_pd_addon,high_risk_cluster_pd_addon,anomaly_pd_addon,description
+base,1.0,0.45,1.0,0.0,0.0,0.0,Current model estimate with base LGD assumption.
+mild_stress,1.15,0.5,1.0,0.02,0.01,0.01,Moderate deterioration in borrower risk and recovery assumptions.
+adverse_stress,1.3,0.55,1.03,0.05,0.03,0.03,Adverse credit environment with stronger deterioration in risky profiles.
+severe_stress,1.55,0.65,1.05,0.08,0.05,0.05,Severe stress with broad PD deterioration and higher loss severity.

@@ -1,0 +1,5 @@
+scenario,description,total_ead,average_pd,median_pd,lgd,total_expected_loss,expected_loss_rate,expected_loss_increase_vs_base,expected_loss_multiplier_vs_base
+base,Current model estimate with base LGD assumption.,3271258.0,0.43186382611788326,0.400035001345471,0.45,732747.3496587379,0.22399558508033848,0.0,1.0
+mild_stress,Moderate deterioration in borrower risk and recovery assumptions.,3271258.0,0.5016327187853636,0.4745238808693307,0.5,941249.4489219914,0.28773317449189006,208502.0992632535,1.2845484181694538
+adverse_stress,Adverse credit environment with stronger deterioration in risky profiles.,3369395.74,0.5593229533898194,0.5688096044609827,0.55,1182948.5006945063,0.35108624571790614,450201.15103576845,1.6144016095662992
+severe_stress,Severe stress with broad PD deterioration and higher loss severity.,3434820.9000000004,0.6209166609318612,0.7026191437804024,0.65,1564056.0697760223,0.4553530199423272,831308.7201172845,2.134509351012255

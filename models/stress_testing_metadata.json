@@ -1,0 +1,24 @@
+{
+    "report_layer": "stress_testing",
+    "base_lgd": 0.45,
+    "n_scenarios": 4,
+    "scenarios": [
+        "base",
+        "mild_stress",
+        "adverse_stress",
+        "severe_stress"
+    ],
+    "n_borrowers": 1000,
+    "base_expected_loss": 732747.3496587379,
+    "adverse_expected_loss": 1182948.5006945063,
+    "severe_expected_loss": 1564056.0697760223,
+    "adverse_expected_loss_multiplier_vs_base": 1.6144016095662992,
+    "severe_expected_loss_multiplier_vs_base": 2.134509351012255,
+    "high_risk_clusters": [
+        "1"
+    ],
+    "high_risk_bands": [
+        "elevated_risk",
+        "high_risk"
+    ]
+}
