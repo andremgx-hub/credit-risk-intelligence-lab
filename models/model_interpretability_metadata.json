@@ -1,0 +1,18 @@
+{
+    "model_layer": "model_interpretability",
+    "model_type": "LogisticRegression",
+    "interpretation_methods": [
+        "global_coefficients",
+        "odds_ratios",
+        "feature_family_importance",
+        "permutation_importance",
+        "local_log_odds_contributions",
+        "borrower_risk_narratives"
+    ],
+    "train_roc_auc": 0.8481770833333333,
+    "test_roc_auc": 0.7965476190476191,
+    "n_train_observations": 800,
+    "n_test_observations": 200,
+    "n_processed_features": 79,
+    "intercept": -0.6308061931566744
+}
